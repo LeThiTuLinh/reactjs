@@ -1,0 +1,130 @@
+*{
+    height:100%
+    width:100%
+}
+.header {
+    border: 1px solid black;
+    height: 50px;
+    background: #d9d5d5;
+    position: relative;
+}
+
+.box {
+    border: 1px solid #baba21;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    left: 90px;
+    top: 4px;
+    background: #baba21;
+}
+
+p.name {
+    position: absolute;
+    left: 150px;
+    font-weight: bold;
+}
+
+p.home {
+    position: absolute;
+    left: 900px;
+}
+
+p.top-film {
+    position: absolute;
+    left: 1100px;
+}
+
+p.Categories {
+    position: absolute;
+    left: 1300px;
+}
+
+.content {
+    position: relative;
+    width: 95%;
+    left: 40px;
+}
+
+.content-right {
+    position: absolute;
+}
+
+.content-left {
+    position: absolute;
+    left: 55%;
+}
+
+.content-top {
+    position: relative;
+    height: 300px;
+}
+
+button#share {
+    height: 30px;
+    width: 150px;
+    background: pink;
+    border-color: pink;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+button#download {
+    height: 30px;
+    width: 150px;
+    background: #FFF176;
+    border-color: #FFEE58;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+button#see {
+    height: 30px;
+    width: 250px;
+    background: #42A5F5;
+    border-color: #42A5F5;
+    border-radius: 5px;
+}
+
+
+button.chientranh {
+    position: absolute;
+    top: 150px;
+    border-radius: 4px;
+    width: 150px;
+    height: 30px;
+}
+
+button.chinhkich {
+    position: absolute;
+    top: 150px;
+    border-radius: 4px;
+    width: 150px;
+    height: 30px;
+    left: 180px;
+}
+
+.content-bottom {
+    position: relative;
+    margin-top: 50px;
+}
+
+p.p2 {
+    border: 1px solid black;
+    width: 1000px;
+    height: 80px;
+    margin-top: -8px;
+}
+
+
+h4#đaoien {
+    position: absolute;
+    top: 200px;
+}
+
+p#namedaodien {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
