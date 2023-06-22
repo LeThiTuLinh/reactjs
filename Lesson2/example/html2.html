@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--External: Viết CSS vào 1 file .css và link vào file HTML-->
+    <link rel="stylesheet" href="./style.css"/>
+    <title>Document</title>
+    <!--Theo cách viết CSS:
+1 => inline style
+2 => internal
+3 => external
+Theo selector:
+Inline
+Id
+Class
+Tag name
+* ! important 
+-->
+
+    <!--Internal: Viết CSS vào thẻ <style> trong file .html-->
+    <style>
+        h1{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <!--Inline CSS: Viết CSS như là giá trị thuộc tính style của thẻ -->
+    <h1 style ="font-size: medium;" >lession2</h1>
+    <h1 id="h1"> Đây là thẻ có id</h1>
+    <h1 class ="h1"> Đây là thẻ có class</h1>
+    <h1 > đây là thẻ có màu đỏ  </h1>
+    <h1 style ="color:blue " id="h1" class="h1" >lession2</h1>
+</body>
+</html>

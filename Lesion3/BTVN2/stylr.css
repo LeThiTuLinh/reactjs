@@ -1,0 +1,208 @@
+.header {
+    border: 1px solid black;
+    background-color: #fff2cc;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    top: 0;
+}
+.box {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 35px;
+    top: 2px;
+}
+p.Mybox {
+    position: absolute;
+    left: 80px;
+    margin: 10px;
+    font-weight: bold;
+}
+.tab {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0;
+    height: 40px;
+    align-items: center;
+}
+
+p.About-us {
+    margin-right: 40px;
+}
+
+p.Contact {
+    margin-right: 40px;
+}
+
+button.MyCart {
+    height: 30px;
+    margin-right: 40px;
+}
+.trang {position: absolute;bottom: 65px;left: 310px;}
+.footer {
+    background-color: #fff2cc;
+    border: 1px solid black;
+    position: fixed;
+    bottom: 2px;
+    width: 100%;
+    height: 50px;
+}
+h3#my\ shop {
+    position: absolute;
+    left: 30px;
+    top: -45px;
+}
+
+p.SDT {
+   
+position: absolute;
+   
+top: 10px;
+   
+left: 300px;
+}
+
+
+p.MyShop {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+p.diachi {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+.content-top {
+    position: relative;
+}
+.content-left {
+    position: absolute;
+    left: 700px;
+    margin-top: -20px;
+}
+
+h1.title {margin-bottom: 2px;}
+
+h5 {
+    margin-top: 10px;
+    margin-bottom: 1px;
+}
+
+button#blue {
+    background: aqua;
+}
+
+button#classic {
+    background: aqua;
+}
+
+p#price {
+    position: absolute;
+    top: 212px;
+    left: 90px;
+    font-size: 13px;
+    color: blue;
+}
+
+p#percent {
+    position: absolute;
+    top: 238px;
+    left: 90px;
+    font-size: 13px;
+    color: red;
+}
+
+p#year {
+    position: absolute;
+    top: 290px;
+    left: 90px;
+    font-size: 13px;
+    color: blue;
+}
+
+button#button2 {
+    background: pink;
+}
+.contenr-right {
+    position: relative;
+    width: 650px;
+}
+p.img {
+    border: 1px solid black;
+    height: 150px;
+    width: 630px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img1 {
+    display: flex;
+}
+
+.img2 {display: flex;}
+p.imgimg {
+    border: 1px solid black;
+    width: 150px;
+    height: 70px;
+    margin: 3px;
+}
+
+
+h3 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+div#customer1 {
+    border: 1px solid black;
+    width: 1300px;
+    height: 80px;
+    position: relative;
+    margin-bottom: 10px;
+}
+div#customer2 {
+    border: 1px solid black;
+    width: 1300px;
+    height: 80px;
+    position: relative;
+}
+
+p#customer {
+    position: absolute;
+    left: 80px;
+    top: -12px;
+}
+
+p#hanoi {
+    position: absolute;
+    left: 80px;
+}
+
+
+.box2 {
+    border: 1px solid black;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    left: 40px;
+    top: 2px;
+    background: pink;
+}
+
+p#time {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+p#cm {
+    position: absolute;
+    top: 40px;
+    left: 50px;
+}

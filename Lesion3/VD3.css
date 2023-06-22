@@ -1,31 +1,107 @@
+.header {
+    border: 1px solid black;
+    background-color: #fff2cc;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    top: 0;
+}
+.box {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 35px;
+    top: 2px;
+}
 
-.container-header {
-    border: 1px solid burlywood;
-    padding: 8px;
+.footer {
+    background-color: #fff2cc;
+    border: 1px solid black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+}
+
+
+
+
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+p.Mybox {
+    position: absolute;
+    left: 80px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.tab {
     display: flex;
-    justify-content: space-between;
-    background: antiquewhite;
+    justify-content: flex-end;
+    margin-top: 0;
+    height: 40px;
     align-items: center;
 }
 
-.header-pages {
-    display: flex;
-    margin-right: 16px;
+p.About.us {
+    margin-right: 40px;
 }
 
-.page {
-    border: 1px solid black;
-    padding: 4px 12px;
-    background: bisque;
+p.Contact {
+    margin-right: 40px;
 }
 
-.border-home {
-    border-left: none;
-    border-right: none;
+button.My.Cart {
+    height: 30px;
+    margin-right: 40px;
 }
 
-.header-logo {
-    padding: 4px 12px;
-    border: 1px solid black;
-    background: darkgreen;
+.trang {position: absolute;bottom: 65px;left: 100px;}
+
+
+p.SDT {
+   
+position: absolute;
+   
+top: 10px;
+   
+left: 300px;
 }
+
+p.My.Shop {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+
+p.diachi {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+
+.sidebar {
+    border: 1px solid #423d3d;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    top: 90px;
+}
+
+.categories {
+}
+
+.categories-title {
+    position: absolute;
+    margin: -30px;
+    left: 72px;
+}
+
+button.showmore {position: absolute;bottom: 150px;left: 40px;}

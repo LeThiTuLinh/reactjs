@@ -1,0 +1,22 @@
+*{
+    border-radius:4px;
+    padding:5px;
+    border:1px solid black;
+    
+}
+#mot{
+    background-color: aliceblue;
+    
+    width: 500px;
+
+}
+#hai{
+    background-color:aqua;
+    
+    width: 500px;
+}
+#ba{
+    background-color: pink;
+    
+    width: 500px;
+}

@@ -1,0 +1,167 @@
+.header {
+    border: 1px solid black;
+    background-color: #fff2cc;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    top: 0;
+}
+.box {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 35px;
+    top: 2px;
+}
+
+
+
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+p.Mybox {
+    position: absolute;
+    left: 80px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.tab {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0;
+    height: 40px;
+    align-items: center;
+}
+
+p.About-us {
+    margin-right: 40px;
+}
+
+p.Contact {
+    margin-right: 40px;
+}
+
+button.MyCart {
+    height: 30px;
+    margin-right: 40px;
+}
+
+.trang {position: absolute;bottom: 65px;left: 310px;}
+.footer {
+    background-color: #fff2cc;
+    border: 1px solid black;
+    position: fixed;
+    bottom: 2px;
+    width: 100%;
+    height: 50px;
+}
+
+p.SDT {
+   
+position: absolute;
+   
+top: 10px;
+   
+left: 300px;
+}
+
+
+p.MyShop {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+p.diachi {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+.sidebar {
+    border: 1px solid black;
+    width: 190px;
+    height: 300px;
+    position: absolute;
+    top: 70px;
+    left: 40px;
+}
+.categories-title {
+    position: absolute;
+    left: 20px;
+    margin: 10px;
+    font-weight: bold;
+}
+.categories {
+    position: absolute;
+    margin: 10px;
+    top: 10px;
+    left: -20px;
+}
+
+button.showmore {
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+}
+.item-list {
+    border: 1px solid black;
+    position: absolute;
+    top: 60px;
+    left: 300px;
+    height: 30px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+}
+.search {
+    position: absolute;
+    left: 40px;
+}
+.sort-order {
+    display: flex;
+    align-items: center;
+}
+.sort {
+    position: absolute;
+    right: 150px;
+}
+.order {
+    position: absolute;
+    right: 40px;
+}
+.content {
+    position: relative;
+    left: 300px;
+    top: 60px;
+}
+.team1 {
+    display: flex;
+}
+.team2 {
+    display: flex;
+    margin-top: -18px;
+}
+img {
+    width: 170px;
+    border: 1px solid black;
+    margin-right: 95px;
+}
+select {
+    position: relative;
+    left: 120px;
+    top: -20px;
+    border: 1px solid white;
+}
+p.price1 {
+    margin: 2px;
+}
+p.lorem {
+    margin: 2px;
+    font-weight: bold;
+}

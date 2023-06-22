@@ -1,0 +1,144 @@
+.div {
+    width: 230px;
+    border: 1px solid black;
+    height: 180px;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 6px;
+}
+#card {
+    margin-top: -12px;
+    margin-bottom: -12px;
+}
+.link1{
+    color: blue;
+    margin-right: 20px;
+}
+a.link2 {
+    color: blue;
+}
+
+
+.div2 {
+        border: 1px solid black;
+        width: 280px;
+        height: 150px;
+        border-radius: 8px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+}
+
+.item {
+    border-bottom: 1px solid black;
+    padding-bottom: 2px;
+}
+
+
+.div3 {
+    border: 1px solid black;
+    width: 400px;
+    height: 370px;
+    background-color: aqua;
+}
+#Tieu-de {
+    border: 1px solid black;
+    width: 340px;
+    margin: auto;
+    padding: 7px;
+    margin-top: 20px;
+    margin-bottom: -5px;
+    font-size: 20px;
+    background-color: rgb(242, 187, 135);
+}
+#doan1 {
+    border: 1px solid black;
+    width: 340px;
+    margin: auto;
+    padding: 7px;
+    margin-top: 20px;
+    margin-bottom: -5px;
+    background-color: rgb(250, 152, 168);
+}
+#doan2 {
+    border: 1px solid black;
+    width: 340px;
+    margin: auto;
+    padding: 7px;
+    margin-top: 20px;
+    margin-bottom: -5px;
+    background-color:rgb(250, 152, 168);
+}
+#button {
+    background-color: #94cbf9;
+    border-radius: 4px;
+    padding: 4px;
+    border-color: #4cadfc;
+    margin-top: 15px;
+    margin-left: 21px;
+}
+
+
+.div4{
+    border:1px solid rgb(10, 10, 10);
+    margin:30px;
+    border-radius : 8px;
+    height: 30px;
+    width:300px;  
+}
+p#mot {
+    padding-left: 11px;
+    border: 1px solid white;
+    height: 30px;
+    width: 50px;
+    margin-top: 0.1px;
+    position: absolute; 
+    margin-bottom: -5px;
+}
+p#hai {
+    padding-left: 11px;
+    border: 1px solid white;
+    height: 30px;
+    width: 50px;
+    margin-top: 0.1px;
+    position: absolute; 
+    left: 130px;
+    border-left: 1px solid;     
+}
+p#ba {
+    padding-left: 11px;
+    border: 1px solid white;
+    height: 30px;
+    width: 25px;
+    margin-top: 0.1px;
+    position: absolute; 
+    left: 180px;
+    border-left: 1px solid;
+    margin-bottom: -5px;
+   
+}
+p#bon {
+    padding-left: 11px;
+    border: 1px solid white;
+    height: 30px;
+    width: 50px;
+    margin-top: 0.1px;
+    position: absolute;
+    left: 220px;
+    border-left: 1px solid;
+    margin-bottom: -5px;
+    
+}
+p#nam {
+    padding-left: 11px;
+    border: 1px solid white;
+    height: 30px;
+    width: 50px;
+    margin-top: 0.1px;
+    position: absolute;
+    left: 270px;
+    border-left: 1px solid ;
+    margin-bottom: -5px;
+   
+}
+
