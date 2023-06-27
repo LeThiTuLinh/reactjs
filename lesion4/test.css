@@ -128,3 +128,7 @@ p#namedaodien {
     top: 200px;
     left: 100px;
 }
+.footer {
+    position: relative;
+    left: 45px;
+}
