@@ -163,14 +163,18 @@ for(let i=1;i<=n;i++){
 } */
 
 //15. Nhập vào 2 số m, n (m >= 2, n > =2). Hãy in ra màn hình hình chữ nhật có độ chiều rộng là m và chiều cao là n.
-let m=Number(prompt("nhap m:"));
-let n=Number(prompt("nhap n:"));
-for (let i = 1; i <= m; ++i){
-   for (let j = 1; j <= n; ++j){
-      console.log("*");
-}
-
-}
+// let m=1;
+// let n=1;
+// while(m<2 ||n<2){
+//      m=Number(prompt("nhap m:"));
+//      n=Number(prompt("nhap n:"));
+// }
+// for (let i = 1; i <= m; ++i){
+//    for (let j = 1; j <= n; ++j){
+//       console.log("*");
+// }
+// console.log("\n");
+// }
 //16. Nhập vào số n (n >= 3). Hãy in ra màn hình hình tam giác vuông cân có độ dài cạnh góc vuông = n.
 /*let n=2;
 while(n<3){
@@ -180,6 +184,7 @@ for(let i=1;i<=n;i++){
     for ( let j = 1; j <= i; j++){
     console.log ("*");
     }
+    console.log("\n");
 }*/
 
 /*17. Nhập vào 2 số w và h là chiều cao và cân nặng của 1 người. Hãy tính chỉ số BMI và đưa ra kết quả:
