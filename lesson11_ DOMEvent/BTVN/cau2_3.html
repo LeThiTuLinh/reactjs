@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Câu 2,3</title>
+</head>
+<body>
+    <!--cau2 -->
+    <input type="text" id="nhap" placeholder="Nhập nội dung công việc mới" style="width:180px"/>
+    <button id="create" onclick="create();">Tạo công việc </button>
+    <h1>Danh sách công việc cần làm </h1>
+    <br>
+        <ul id="danhSach" style="margin-top:-20px">
+            <li>Đi chơi</li>
+            <li>Làm bài tập</li>
+            <li>Giặt quần áo</li>
+        </ul>
+        <!--câu 3-->
+        <h1>Danh sách người dùng</h1>
+        <br>
+        <table border="1" width="350px" height="150px">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Address</th>
+                <th></th>
+            </tr>
+            <tr id="list1">
+                <th>1</th>
+                <th>Name 1</th>
+                <th>Address 1</th>
+                <th><button id="delete">Xoa</button></th>
+            </tr>
+            <tr id="list2">
+                <th>2</th>
+                <th>Name 2</th>
+                <th>Address 2</th>
+                <th><button id="delete" onclick="deleteRow">Xoa</button></th>
+            </tr>
+            <tr id="list3">
+                <th>3</th>
+                <th>Name 3</th>
+                <th>Address 3</th>
+                <th><button id="delete" onclick="deleteRow">Xoa</button></th>
+            </tr>
+            <tr id="list4">
+                <th>4</th>
+                <th>Name 4</th>
+                <th>Address 4</th>
+                <th><button id="delete" onclick="deleteRow">Xoa</button></th>
+            </tr>
+            
+        </table>
+    <script>
+        const listTag= document.getElementsById("danhSach");
+        function create(){
+            
+            listTag.insertAdjacentHTML('beforeend',newTag);
+        }
+        
+        let toRemove1 = document.getElementById("#list1");
+        function deleteRow(){
+            toRemove1.remove();
+        }
+    </script>
+</body>
+</html>

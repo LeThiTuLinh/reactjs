@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--câu 1-->
+    <input type = "button"  value = "click" onclick = "HienThi()">
+    <input type = "email" name = "my-email" id="my-email" >
+    <br/>
+    <br/>
+    <br/>
+    <hr>
+    <!--câu2-->
+    <input tyle="number" id="number-a"style="width:50px;">
+    <input tyle="number" id="number-b"style="width:50px;">
+    <p id="kqua"style="width:50px;border:black 1px solid">kết quả</p> 
+    
+    <input type = "button"  value = "cộng" onclick = "sum()" style="background-color:pink">
+    <input type = "button"  value = "trừ" onclick = "sub()"style="background-color:pink">
+    <br/>
+    <br/>
+    <br/>
+    <hr>
+    <!--câu2-->
+
+    <!--câu3-->
+    <img id="img" src="https://antimatter.vn/wp-content/uploads/2022/11/hinh-anh-avatar-cute.jpg" alt="avatar" style="width:150px;height:150px"/>
+    <br/>
+    <input type = "button"  value = "Tăng" onclick = "tang()" style="background-color:pink">
+    <input type = "button"  value = "Giảm" onclick = "giam()"style="background-color:pink">
+
+    <script>
+       //câu1
+       function HienThi() {
+        let check=false;
+        var email = document.getElementById('my-email');
+            var filter = /^([a-zA-Z0-9_\.\-])+\@((S[a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+            if (filter!=email.value) {
+                alert('email sai định dạng.Hay nhap email hop le.');
+            
+            } else {
+                alert('email đúng định dạng');
+            }
+        }
+        //câu2
+        let a = document.getElementById("number-a");
+        let b = document.getElementById("number-b");
+        function sum() { 
+            let sum = a.value + b.value;
+            document.getElementById('kqua').innerText = sum;
+        }
+        function sub() {
+            let sub = a.value - b.value;
+            document.getElementById('kqua').innerText = sub;
+        }
+
+        //câu3
+        let tang=document.getElementById("tang");
+        let giam=document.getElementById("giam");
+        tang.onchange = () => {
+	         const value = tang.value;
+	         image.style.width = value +10+ 'px';
+        };
+
+
+        
+
+    </script>
+    
+</body>
+</html>

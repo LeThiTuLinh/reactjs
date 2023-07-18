@@ -603,6 +603,18 @@ let users = [
 	// console.log(count2 +" nguoi chưa kết hôn" );
 
 //Bài 4.5: Đếm số lượng user theo từng ngành nghề tương ứng.
+// const result = {};
+
+// for (let user of users) {
+// 	const flag = result.hasOwnProperty(user.job);
+// 	if (flag) {
+// 		result[user.job] = result[user.job] + 1;
+// 	} else {
+// 		result[user.job] = 1;
+// 	}
+// }
+// console.log(result);
+
 
 // Bài 1. Khai báo 1 function với đầu vào là 3 số a, b, c (a khác 0).
 //Hãy tìm nghiệm của phương trình a.x ^ 2 + b.x + c = 0 và đưa ra kết quả dưới dạng 1 mảng gồm các nghiệm của phương trình.
